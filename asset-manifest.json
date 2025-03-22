@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Doctor-Appointment-Scheduler/static/css/main.82a8dc1b.css",
+    "main.js": "/Doctor-Appointment-Scheduler/static/js/main.b52167dd.js",
+    "static/js/156.087d7cdd.chunk.js": "/Doctor-Appointment-Scheduler/static/js/156.087d7cdd.chunk.js",
+    "static/media/admin.webp": "/Doctor-Appointment-Scheduler/static/media/admin.4c4b9afff8f7ce51f6c4.webp",
+    "index.html": "/Doctor-Appointment-Scheduler/index.html",
+    "main.82a8dc1b.css.map": "/Doctor-Appointment-Scheduler/static/css/main.82a8dc1b.css.map",
+    "main.b52167dd.js.map": "/Doctor-Appointment-Scheduler/static/js/main.b52167dd.js.map",
+    "156.087d7cdd.chunk.js.map": "/Doctor-Appointment-Scheduler/static/js/156.087d7cdd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82a8dc1b.css",
+    "static/js/main.b52167dd.js"
+  ]
+}
