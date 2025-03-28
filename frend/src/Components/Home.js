@@ -2,8 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import '../Styles/Home.css';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import back1 from '../assests/back1.webp'
-import back from '../assests/back.webp'
 const Home = () => {
   let [doc,setDoc]=useState([])
   let navigate=useNavigate()
@@ -30,7 +28,7 @@ const Home = () => {
           Book appointment <i className="fa-solid fa-arrow-right"></i>
         </button>
       </div>
-      <img className="back" src={back} alt="back" />
+      <img className="back" src="/back.webp" alt="back" />
       <h1>Find By Speciality</h1>
       <p>Simply browse through our extensive list of trusted doctors, schedule your appointment hassle-free.</p>
       <div className="img" ref={imgRef}>
@@ -81,7 +79,7 @@ const Home = () => {
           <h1>Book Appointment with 100+ Trusted Doctors</h1>
           <Link to='/reg'><button className="btn">Create Account</button></Link>
         </div>
-        <img className="back1" src={back1} alt="back" />
+        <img className="back1" src="/back1.webp" alt="back" />
       </div>
     </div>    
   )
