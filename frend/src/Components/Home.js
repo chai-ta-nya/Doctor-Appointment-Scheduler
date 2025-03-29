@@ -79,7 +79,7 @@ const Home = () => {
           <h1>Book Appointment with 100+ Trusted Doctors</h1>
           <Link to='/reg'><button className="btn">Create Account</button></Link>
         </div>
-        <img className="back1" src="/back1.webp" alt="back" />
+        <img className="back1" src={`${process.env.PUBLIC_URL}/back1.webp`} alt="back" />
       </div>
     </div>    
   )
